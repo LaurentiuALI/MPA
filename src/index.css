@@ -42,15 +42,16 @@
 }
 
 @theme {
-  --animate-wiggle: wiggle 1s ease-in-out infinite;
+  --animate-appear: appear linear;
 
-  @keyframes wiggle {
-    0%,
-    100% {
-      transform: 
+  @keyframes appear {
+   from{
+      transform: scale(0.9);
+      opacity: 0;
     }
-    50% {
-      transform: rotate(3deg);
+    to {
+      transform: scale(1);
+      opacity: 1;
     }
   }
 }
