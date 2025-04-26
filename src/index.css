@@ -41,19 +41,28 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
-@theme {
-  --animate-appear: appear linear;
+@layer components {
+  .ceva-bun {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@layer utilities {
+  .animate-appear {
+    animation: appear 2s linear;
+  }
 
   @keyframes appear {
    from{
-      transform: scale(0.9);
-      opacity: 0;
+     opacity: 0;
+     scale:0
     }
     to {
-      transform: scale(1);
       opacity: 1;
+      scale: 1;
     }
   }
+
 }
 
 :root {
