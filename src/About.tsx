@@ -1,5 +1,6 @@
 import { Dot } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import { Button } from "./components/ui/button";
 
 export default function TopProduse() {
     const [currentScreen, setCurrentScreen] = useState(0);
@@ -79,7 +80,23 @@ export default function TopProduse() {
                 ))}
             </aside>
 
-            <div className="snap-start w-full h-screen flex items-center justify-center bg-amber-500">
+            <div className="snap-start w-full h-screen flex items-center justify-around bg-amber-500 overflow-hidden">
+                <div className="mt-48">
+                    <img src="./screen-1.svg" alt="Screen 1" className="w-[25vw] h-[107vh]  object-cover" />
+                </div>
+                <div className="flex flex-col h-[60vh] justify-start w-[30vw] mr-80">
+                    <p className="text-orange-900 font-semibold text-2xl">DESPRE APLICAȚIE</p>
+                    <h1 className="font-bold text-white text-8xl">Descoperă cele mai noi cafenele</h1>
+                    <p className="font-semibold text-white text-2xl mt-40">Aici găsești toate cafenele din orașul tău într-un singur lor. Intră acum în aplicație și descoperă ultimele noutăți în materie de cafea din apropierea ta.</p>
+                    <span className="w-[100px] h-[100px]">
+                        <img src="/arrow-white.png" className=" right-[850px] absolute h-[20vh] w-48 rotate-45 object-cover " />
+                    </span>
+                    <Button variant="ghost" className="border-1 border-white text-white font-semibold w-60 h-16 mt-20 text-xl">Intră în aplicație</Button>
+                    <span>
+                        <img src="./boabe.svg" className="w-64 h-64 absolute  right-60" />
+                    </span>
+
+                </div>
             </div>
             <div className="snap-start w-full h-screen flex items-center justify-center bg-red-500">
                 Red
