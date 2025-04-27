@@ -8,7 +8,6 @@ export function useInView() {
     useEffect(() => {
         const observer = new IntersectionObserver(
             ([entry]) => {
-                console.log(entry)
                 if (entry.isIntersecting) {
                     setVisible(entry.isIntersecting);
                 } else {
