@@ -1,3 +1,5 @@
+import { ArrowBigDown } from "lucide-react";
+import { Button } from "./components/ui/button";
 import { useInView } from "./useInView";
 
 export default function TopProduse() {
@@ -13,7 +15,7 @@ export default function TopProduse() {
             <span className='text-2xl text-amber-600 font-semibold'>TOP PRODUSE</span>
             <span className='text-8xl text-black font-semibold mt-6'>Top cele mai căutate produse</span>
             <div className='relative flex justify-center z-10'>
-                <div className='rounded-b-[50%] rounded-t-[2rem] w-[50vw] h-[40vh] bg-amber-500 mt-20'></div>
+                <div className='rounded-b-[50%] rounded-t-[2rem] w-[50vw] h-[40vh] bg-orange-400 mt-20'></div>
                 <div className="absolute grid grid-cols-2 grid-rows-3 gap-30 top-12">
                     {coffeeAndImages.map((coffee, index) => {
                         const [ref, isVisible] = useInView();
@@ -45,7 +47,13 @@ export default function TopProduse() {
                         );
                     })}
                 </div>
+
             </div>
+            <Button className="relative top-[400px]  left-[1200px] rounded-full w-20 h-20">
+                <a href="#about" className="flex items-center justify-center w-full h-full">
+                    <ArrowBigDown className="w-full h-full" />
+                </a>
+            </Button>
 
         </section>
     )
