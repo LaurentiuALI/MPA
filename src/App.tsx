@@ -1,5 +1,4 @@
 import './App.css'
-import { useInView } from './useInView'
 import Landing from './landing'
 import TopProduse from './top-produse'
 import About from './About'
