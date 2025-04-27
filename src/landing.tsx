@@ -15,7 +15,7 @@ export default function Landing() {
                     <Button variant="link" className='text-lg font-semibold'> Acasă </Button>
                     <Button variant="link" className='text-lg font-semibold'> <a href="#top-produse"> Top Produse </a></Button>
                     <Button variant="link" className='text-lg font-semibold'> <a href="#about">Despre aplicație</a> </Button>
-                    <Button variant="link" className='text-lg font-semibold'> Contact </Button>
+                    <Button variant="link" className='text-lg font-semibold'> <a href="#contact">Contact</a>  </Button>
                     <Button variant="link" className='text-lg font-semibold'> Echipă </Button>
                 </div>
             </nav >
