@@ -1,5 +1,5 @@
 import { AspectRatio } from "@/components/ui/aspect-ratio";
-import { ArrowBigDown, ArrowDown, Star } from "lucide-react";
+import { ArrowBigDown, Star } from "lucide-react";
 import MarqueeAnimation from "./components/marquee";
 import { Button } from "./components/ui/button";
 
