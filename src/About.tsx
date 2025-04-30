@@ -95,7 +95,7 @@ export default function About() {
             </div>
             <div className="snap-start w-full h-screen flex items-center justify-around bg-violet-800 overflow-hidden">
                 <div className="mt-48">
-                    <img src="./screen-2.svg" alt="Screen 1" className="w-[26vw] h-[105vh]  object-cover" />
+                    <img src="./screen-2.svg" alt="Screen 1" className="w-[26vw] h-[101 vh]  object-cover" />
                 </div>
                 <div className="flex flex-col h-[60vh] justify-start w-[30vw] mr-80">
                     <p className="text-white font-semibold text-2xl">DESPRE APLICAȚIE</p>
@@ -113,15 +113,11 @@ export default function About() {
             </div>
             <div className="snap-start w-full h-screen flex items-center justify-around bg-green-800 overflow-hidden">
                 <div className="mt-48 overflow-hidden relative w-[26vw] h-[105vh]">
-                    <img
-                        src="./screen-3-nopopup.svg"
-                        alt="Screen 1"
-                        className="w-full h-full object-cover"
-                    />
+                    <img src="./screen-3-nopopup.svg" alt="Screen 1" className="relative top-42 w-[26vw] h-[101 vh]  object-cover" />
                     <img
                         src="./client-recompensa.svg"
                         alt="Screen 1"
-                        className="absolute w-[24.75vw] h-[28vh] bottom-[133px] left-[12px] image1 object-cover"
+                        className="absolute w-[24.5vw] h-[24.5vh] bottom-[133px] left-[20px] image1 object-cover"
                     />
                 </div>
 
@@ -130,7 +126,7 @@ export default function About() {
                     <h1 className="font-bold text-white text-8xl">Descoperă cele mai noi cafenele</h1>
                     <p className="font-semibold text-white text-2xl mt-40">Aici găsești toate cafenele din orașul tău într-un singur lor. Intră acum în aplicație și descoperă ultimele noutăți în materie de cafea din apropierea ta.</p>
                     <span className="w-[100px] h-[100px]">
-                        <img src="/arrow-white.png" className=" relative top-[50px] left-[250px] w-[400px] h-[200px] rotate-45 object-cover " />
+                        <img src="/arrow-white.png" className="relative top-[50px] left-[300px] w-[400px] h-[200px] rotate-45 object-cover" />
                     </span>
                     <Button variant="ghost" className="border-1 border-white text-white font-semibold w-60 h-16 mt-20 text-xl">Intră în aplicație</Button>
                     <span>

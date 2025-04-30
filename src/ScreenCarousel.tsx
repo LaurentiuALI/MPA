@@ -40,11 +40,8 @@ export default function HeroCarousel() {
                     aplicație și descoperă ultimele noutăți în materie de cafea din apropierea ta.
                 </p>
 
-                <span className="relative block w-[100px] h-[100px] mt-6">
-                    <img
-                        src="/arrow-white.png"
-                        className="absolute top-1/2 left-1/2 w-[400px] h-[200px] -translate-x-1/2 -translate-y-1/2 rotate-45 object-cover"
-                    />
+                <span className="w-[100px] h-[100px]">
+                    <img src="/arrow-white.png" className="relative top-[50px] left-[300px] w-[400px] h-[200px] rotate-45 object-cover" />
                 </span>
 
                 <Button
