@@ -24,7 +24,7 @@ export default function Contact() {
             </div>
             <div className="bg-black w-full h-3/4 flex justify-between">
                 <img src="./coffe-contact.png" className="h-full"></img>
-                <div className="w-1/2  mr-60 flex flex-col items-end p-60">
+                <div className="w-1/2  mr-60 flex flex-col items-end p-10">
                     <div className="text-3xl font-semibold text-amber-500 mb-4">CONTACT</div>
                     <div className="w-[600px] text-right text-3xl font-semibold text-white">Dacă ai întrebări, scrie-ne un mesaj și vom reveni către tine în cel mai scurt timp.</div>\
                     <div className="grid grid-rows-5 grid-cols-2 gap-12">
