@@ -40,10 +40,11 @@ export default function Landing() {
                             Mock-up
                         </a>
                     </Button>
-                    <Button className='h-20 w-[10vw] rounded-full bg-neutral-800 text-2xl font-semibold'>Pitch</Button>
+                    <Button className='h-20 w-[10vw] rounded-full bg-neutral-800 text-2xl font-semibold'><a target="_blank" href="https://docs.google.com/presentation/d/1_1w8id5CStWFOYp4oy0tm_NUQESasFgPWh7stl5LKt0/edit#slide=id.gf895c1fca3_0_21920">
+                        Pitch
+                    </a></Button>
                     <Button className='h-20 w-[15vw] rounded-full bg-neutral-800 text-2xl font-semibold'>
                         <a href="#about">
-
                             Descopera Aplicația
                         </a>
                     </Button>
